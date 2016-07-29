@@ -1,6 +1,6 @@
 # docker-jmeter
 
-Packages JMeter in a docker container
+Packages JMeter in a docker container.
 
 ## Example usage
 
