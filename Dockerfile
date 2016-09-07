@@ -28,5 +28,7 @@ RUN chmod +x /runload.sh
 
 VOLUME ['/jmeter']
 
+WORKDIR	${JMETER_HOME}
+
 CMD /runload.sh
 
