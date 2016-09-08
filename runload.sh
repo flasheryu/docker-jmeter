@@ -7,6 +7,6 @@ if [ -z "$LOADNAME" ]; then
 fi
 
 echo "start $LOADNAME.jmx ....";
-bin/jmeter -n -t /jmeter/$LOADNAME.jmx -l /tmp/result_$LOADNAME.jtl;
+bin/jmeter -n -t /jmeter/$LOADNAME.jmx -l /log/result_$LOADNAME.jtl;
 echo "end $LOADNAME.jmx ....";
 exit;
